@@ -112,6 +112,7 @@ public class MainActivity extends Activity {
         // update the main content by replacing fragments
         currentPosition = position;
         Fragment fragment;
+
         switch(position) {
         case 1:
             fragment = new TiestoFragment();
